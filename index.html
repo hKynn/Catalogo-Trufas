@@ -6,12 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paraíso dos Doces</title>
     <style>
-        @font-face {
-    font-family: 'Cupcake';
-    src: url('Cupcake.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Cupcake';
+        src: url('Cupcake.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Cupcake', cursive; /* troquei para Cupcake */
+        background-color: #B6DDF2; /* azul claro */
+        color: #5B3A29; /* marrom */
+    }
+
+    header {
+        background-color: #F4CBA5; /* bege */
+        text-align: center;
+        padding: 20px;
+    }
+
+    header img {
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    .social a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        background: #5B3A29;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .social a:hover {
+        background: #3e271b;
+    }
+
+    .catalogo {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .item {
+        background: white;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+        background: #F4CBA5;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+</style>
+
         body {
             margin: 0;
             font-family: 'Cupcake', cursive;
@@ -120,5 +189,6 @@
 
 </body>
 </html>
+
 
 
